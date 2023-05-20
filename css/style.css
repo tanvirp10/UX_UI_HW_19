@@ -108,14 +108,13 @@ button:hover {
   font-size: 125%;
 }
 
-
 .fttfcontent {
   display:flex;
   flex-direction:column;
   align-items:left;
   margin:auto;
 }
-.excursionimg{
+.excursionimg {
   margin-right: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -221,13 +220,41 @@ footer a:hover {
   max-width: 1200px;
   margin: 0 auto;
 }
-.bgimage {
-  width:100vw;
-  height:100vh;
-  position:relative;
-  background-image: url('backgroundimage.jpg');
-  background-size: cover;
+
+.column-2 {
+  position: relative;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: transparent;
 }
+
+.w-col-2 {
+  width: 16.66666667%;
+}
+.w-col {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.heading {
+font-family: "Courier New";
+color: #87878c;
+font-size: 18px;
+line-height: 160%;
+font-weight: 400;
+}
+.work {
+margin-top: 4px;
+font-family: "Courier New";
+color: #fff;
+font-size: 18px;
+line-height: 160%;
+margin-bottom: 50px;
+}
+
 .footer-main {
   display: flex;
   margin-bottom: 4rem;
